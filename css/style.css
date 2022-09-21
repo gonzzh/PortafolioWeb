@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-size: 15px;
+	color: #000;
+	font-family: 'Potential';
+}
+header{
+	background-color: #fff;
+	border-bottom: 2px solid #000;
+	width: 100%;
+	padding: 10px 0;
+}
+
+#intro{
+	background-image:url("../img/intro.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	padding: 22% 0;
+	text-align:center;
+	color: #000;
+	margin: 0 0 80px 0;
+	border-bottom: 2px solid #000;
+}
+
+#intro p{
+	position: relative;
+	top:200px;
+	left: -98px;
+	color: #000;	
+}
+
+#acerca {
+	background-color: #000;
+	color: #fff;
+	padding: 80px;
+}
+
+
+#acerca p{
+	color: #FFFFFF;
+	font-size:16px;
+	position: relative;
+	right: -10px;
+	top: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#acerca img{
+	position: relative;
+	left: 90px;
+}
+
+#acerca h3{
+	color: #f15ea6;
+}
+
+#servicios{
+	background-color: #f5f5f5;
+	text-align: center;
+}	
+
+.titulo {
+	color: #f15ea6;
+	text-aligh: center;
+	letter-spacing: 4px;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+
+.parrafo{
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 40px;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+#servicios h3{
+	text-transform: uppercase;
+	color:#f15ea6;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 20px 0;
+	letter-spacing:1px;
+}	
+#gallery{
+	padding:30px 0;
+	background-color: #fff;
+}
+
+#gallery h1{
+	color:#f15ea6;
+}
+.gallery-img{
+	margin: 0;
+	padding: 0;
+}
+
+.content-gallery{
+	color:#fff;
+	font-size: 11px;
+	text-align: center;
+	width: 45%;
+	margin:auto;
+}
+
+
+
+
+#contact{
+	background-color: #000;
+	padding: 50px;
+}
+
+#contact h4{
+	position: relative;
+	text-align: center;
+	right: 0 !important;
+	left: 0 !important;
+	color: #ed729b;
+}
+
+
+#contact p{
+	position: relative;
+	right: 0 !important;
+	left: 0 !important;
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.btn-contact2{
+	width: 140px;
+	height: 40px;
+	border-radius: 50px;
+	background-color:  #f15ea6;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+}
+
+
+.btn-contact2:hover{
+	background-color:  #fff;
+	color: #f15ea6;
+}
+
+
+footer{
+	background-color:#fff;
+	
+}
+
+footer i{
+	color:#000;
+	font-size: 30px;
+}
+
+footer a{
+	width: 50px;
+	height: 50px;
+	line-height: 55px;
+	display: block;
+	border-radius: 100%;
+	color: #000;
+	text-decoration: non;
+	margin: auto;
+	transition: all 0.4s ease-in-out;
+	font-size: 22px;
+	margin-top: 5%;
+}
+
+footer p{
+	color: #f15ea6;
+	text-align: center;
+	position: relative;
+	left: 15px;
+}
+
+footer hr{
+	color: #f15ea6;
+	border: solid thin;
+}
+
+footer .lab{
+	font-size: 30px;
+	color:#f15ea6;
+}
